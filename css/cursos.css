@@ -1,0 +1,56 @@
+body{
+    font-family: 'Poppins', 'Arial';
+}
+
+h2{
+    font-size: 38px;
+    margin-top: 60px;
+    background-color: rgba(255, 255, 255, 50%)
+}
+
+#course1 {
+    background: url(../img/kids.jpg) 50% 0 fixed;
+    background-size: cover;
+    min-height: 500px;    
+}
+
+#course2{
+    background: url(../img/teens.jpg) 50% 0 fixed;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#course3{
+    background: url(../img/adults.jpg) 50% 0 fixed;
+    background-size: cover;
+    min-height: 500px;
+}
+
+#course4{
+    background: url(../img/intensive.jpg) 50% 0 fixed;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.texto {
+    color: black;
+    padding: 10px;
+}
+
+.texto ul li {
+    color: black;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 150px;
+}
+
+.texto ul li span {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bloque{
+    background-color: white;
+    line-height: 35px;
+}

@@ -1,0 +1,166 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?ybohor');
+  src:  url('../fonts/icomoon.eot?ybohor#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ybohor') format('truetype'),
+    url('../fonts/icomoon.woff?ybohor') format('woff'),
+    url('../fonts/icomoon.svg?ybohor#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+body{
+  font-family: 'Poppins', 'Arial';
+}
+
+.consultas {
+  width: 20%;
+  margin-left: 250px;
+  display: block;
+  float: left;
+  border-right: 1px solid #ccc;
+  height: 520px;
+}
+
+.consultas h4{
+  font-weight: bold;
+  color:white;
+  font-size: 24px;
+}
+.consultas p{
+  font-style: italic;
+  font-size: 18px;
+  color: white;
+}
+
+.consultas p span{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.columna {
+  background-image: url('../img/contacto.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 520px;
+  box-sizing: border-box;
+  padding: 0 0.5em;
+  color: white;
+  opacity: 100%;
+}
+
+.formulario label {
+  padding: 30px 30px 10px 10px;
+  display:inline-block;
+  font-style: italic;
+  font-size: 18px;
+ float: left;
+}
+
+.formulario input, 
+.formulario textarea:first-child {
+  margin-top: 20px;
+
+}
+.formulario input, 
+.formulario textarea{
+float: right ;
+margin-right: 200px;
+width: 40%;
+background-color:white;
+opacity: 60%;
+border-radius: 10px;
+font-size: 14px;
+padding:  0.5em 0.6em;
+box-shadow: 0 0 10px rgb(94, 85, 85);
+font-style: italic;
+font-size: 18px;
+}
+
+.formulario textarea {
+  height: 10em;
+  resize: none;
+}
+
+.formulario input[type="submit"]{
+  background-color: #154d34;
+  opacity: 100%;
+  box-shadow: 0 0 10px rgb(94, 85, 85);
+  color: white;
+  font-size: 1em;
+  padding: 0.4em 0.2em;
+}
+
+.formulario .enviar {
+  text-align: center;
+  margin-right: 280px;
+  
+}
+.enviar input{
+ width: 120px;
+ height: 40px;
+}
+
+.info {
+  color: black;
+  font-size: 20px; 
+  font-weight: bold; 
+  text-align: left;
+  margin-top: 70px;
+  padding-left: 270px;
+  width: 350px;
+  height: 300px;
+  float: left;
+  list-style: none;
+  line-height: 1.4em;  
+}
+
+.icon-direccion::before,
+.icon-tel::before,
+.icon-whatsapp::before,
+.icon-email::before,
+.icon-instagram::before,
+.icon-facebook::before {
+ font-family: 'icomoon';
+ font-size: 20px;
+ margin: 10px;
+ color: black;
+}
+
+.icon-direccion::before {
+  content: "\e900";
+}
+.icon-tel::before {
+  content: "\e942";
+}
+.icon-email::before {
+  content: "\e945";
+}
+.icon-facebook::before {
+  content: "\ea91";
+}
+.icon-instagram::before {
+  content: "\ea92";
+}
+.icon-whatsapp::before {
+  content: "\ea93";
+}
+
+.mapa {
+margin-top: 30px;
+padding-right: 200px;
+margin-bottom: 40px;
+}
+.info li {
+  padding-top: 10px;
+}
+.info span {
+font-style: italic ;
+font-weight: lighter;
+color:#154d34 ;
+}
+
+
